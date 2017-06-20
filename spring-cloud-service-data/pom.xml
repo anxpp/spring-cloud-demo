@@ -84,8 +84,9 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.13</version>
                 <configuration>
-                    <imageName>demo/${project.build.finalName}</imageName>
-                    <dockerHost>http://192.168.175.129:2375</dockerHost>
+                    <imageName>demo/${project.build.finalName}-2</imageName>
+                    <!--<dockerHost>http://192.168.175.129:2375</dockerHost>-->
+                    <dockerHost>http://test.ecs.anxpp.com:2375</dockerHost>
                     <dockerDirectory>src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
@@ -101,7 +102,7 @@
 
     <repositories>
         <repository>
-            <id>nexus_public</id>
+            <id>public</id>
             <url>http://maven.anxpp.com/nexus/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
@@ -111,5 +112,20 @@
             </snapshots>
         </repository>
     </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <url>http://maven.anxpp.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 
 </project>

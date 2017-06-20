@@ -4,4 +4,4 @@ spring:
     name: web-home
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://test.ecs.anxpp.com:8888

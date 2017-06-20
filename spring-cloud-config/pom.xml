@@ -79,7 +79,8 @@
                 <version>0.4.13</version>
                 <configuration>
                     <imageName>demo/${project.build.finalName}</imageName>
-                    <dockerHost>http://192.168.175.129:2375</dockerHost>
+                    <!--<dockerHost>http://192.168.175.129:2375</dockerHost>-->
+                    <dockerHost>http://test.ecs.anxpp.com:2375</dockerHost>
                     <dockerDirectory>src/main/docker</dockerDirectory>
                     <resources>
                         <resource>

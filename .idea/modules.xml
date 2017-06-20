@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+      <module fileurl="file://C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud.iml" filepath="C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-common/spring-cloud-common.iml" filepath="$PROJECT_DIR$/spring-cloud-common/spring-cloud-common.iml" />
+      <module fileurl="file://C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-common\spring-cloud-common.iml" filepath="C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-common\spring-cloud-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
+      <module fileurl="file://C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-config\spring-cloud-config.iml" filepath="C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-config\spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-eureka\spring-cloud-eureka.iml" filepath="C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-eureka\spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-multi-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-multi-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-data/spring-cloud-service-data.iml" filepath="$PROJECT_DIR$/spring-cloud-service-data/spring-cloud-service-data.iml" />
+      <module fileurl="file://C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-service-data\spring-cloud-service-data.iml" filepath="C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-service-data\spring-cloud-service-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-web-home/spring-cloud-web-home.iml" filepath="$PROJECT_DIR$/spring-cloud-web-home/spring-cloud-web-home.iml" />
+      <module fileurl="file://C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-web-home\spring-cloud-web-home.iml" filepath="C:\java\IdeaProjects\spring-cloud-multi-demo\spring-cloud-web-home\spring-cloud-web-home.iml" />
     </modules>
   </component>
 </project>

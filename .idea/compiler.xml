@@ -20,6 +20,7 @@
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-config-repo" target="1.5" />
       <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-multi-demo" target="1.5" />
       <module name="spring-cloud-service-data" target="1.8" />
       <module name="spring-cloud-web-home" target="1.8" />
       <module name="springcloud" target="1.5" />

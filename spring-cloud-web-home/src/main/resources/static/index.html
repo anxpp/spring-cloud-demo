@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="overflow: scroll">
+
+<script src="http://qiniu.anxpp.com/anxpp/index/js/jquery.js"></script>
+<script>
+    var i = 0;
+    $(function () {
+        window.setInterval(
+            function () {
+                ++i;
+                $.get('/hello', function (data) {
+                    $('body').append('<div>第' + i + '次请求，服务器消息：' + data.data + '</div>');
+                })
+            }, 2000);
+    });
+</script>
+</body>
+</html>
