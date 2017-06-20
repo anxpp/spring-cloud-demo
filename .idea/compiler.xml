@@ -6,18 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-common" />
         <module name="spring-cloud-config" />
-        <module name="spring-cloud-config-repo" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-service-data" />
         <module name="spring-cloud-web-home" />
+        <module name="springcloudcommon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-cloud" target="1.5" />
+      <module name="spring-cloud-common" target="1.5" />
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-config-repo" target="1.5" />
       <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-service-data" target="1.8" />
       <module name="spring-cloud-web-home" target="1.8" />
       <module name="springcloud" target="1.5" />
+      <module name="springcloudcommon" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

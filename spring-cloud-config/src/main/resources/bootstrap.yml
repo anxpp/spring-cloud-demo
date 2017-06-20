@@ -1,0 +1,8 @@
+# 配置仓库
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://git.anxpp.com/open-source-unclassified-projects/spring-cloud-config-repo.git

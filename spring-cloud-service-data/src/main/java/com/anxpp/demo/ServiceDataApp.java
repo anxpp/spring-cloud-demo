@@ -2,11 +2,13 @@ package com.anxpp.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+@EnableDiscoveryClient
 @SpringBootApplication
-public class SpringCloudConfigApplication {
+public class ServiceDataApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudConfigApplication.class, args);
+        SpringApplication.run(ServiceDataApp.class, args);
     }
 }

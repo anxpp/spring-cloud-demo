@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-common/spring-cloud-common.iml" filepath="$PROJECT_DIR$/spring-cloud-common/spring-cloud-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-repo/spring-cloud-config-repo.iml" filepath="$PROJECT_DIR$/spring-cloud-config-repo/spring-cloud-config-repo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-data/spring-cloud-service-data.iml" filepath="$PROJECT_DIR$/spring-cloud-service-data/spring-cloud-service-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-web-home/spring-cloud-web-home.iml" filepath="$PROJECT_DIR$/spring-cloud-web-home/spring-cloud-web-home.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
     </modules>
   </component>
 </project>

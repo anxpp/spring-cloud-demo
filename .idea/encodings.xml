@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-cloud-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-service-data" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-web-home" charset="UTF-8" />
   </component>
 </project>
