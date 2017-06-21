@@ -1,7 +1,9 @@
-package com.anxpp.demo.config.exception;
+package com.anxpp.demo.code;
 
+import lombok.Getter;
 
-public enum StatusCode implements BaseCode {
+@Getter
+public enum StatusCode implements Code {
     SUCCESS(200, "成功"),
     LOGIC_EXCEPTION(100, "业务异常"),
     ERROR(500, "未知错误");
@@ -13,12 +15,4 @@ public enum StatusCode implements BaseCode {
 
     private int code;
     private String message;
-
-    public int getCode() {
-        return code;
-    }
-
-    public String getMessage() {
-        return message;
-    }
 }

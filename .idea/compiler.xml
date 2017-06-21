@@ -15,7 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-cloud-common" target="1.5" />
+      <module name="spring-cloud-common" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-service-data" target="1.8" />

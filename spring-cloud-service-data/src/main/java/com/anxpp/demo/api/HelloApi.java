@@ -1,6 +1,6 @@
 package com.anxpp.demo.api;
 
-import com.anxpp.demo.config.PortUtil;
+import com.anxpp.demo.core.service.HelloService;
 import com.anxpp.demo.dto.SimpleResponse;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,19 +17,15 @@ import javax.annotation.Resource;
 public class HelloApi {
 
     @Resource
-    private PortUtil portUtil;
+    private HelloService helloService;
 
     @RequestMapping
-    public SimpleResponse index() {
-        SimpleResponse response = new SimpleResponse();
-        response.setData("Hello World ! My port is " + portUtil.getPort());
-        return response;
+    public SimpleResponse index() throws Exception {
+        return helloService.hello();
     }
 
     @RequestMapping("/{name}")
     public SimpleResponse name(@PathVariable String name) {
-        SimpleResponse response = new SimpleResponse();
-        response.setData("Hello " + name + " ! My port is " + portUtil.getPort());
-        return response;
+        return helloService.helloName(name);
     }
 }

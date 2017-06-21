@@ -8,8 +8,8 @@ import lombok.Data;
  * Created by yangtao on 2017/6/20.
  */
 
-@Builder
 @Data
+@Builder
 public class SimpleResponse {
 
     private Integer code = 0;

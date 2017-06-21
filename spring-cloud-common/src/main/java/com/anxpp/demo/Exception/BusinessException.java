@@ -1,5 +1,6 @@
-package com.anxpp.demo.config.exception;
+package com.anxpp.demo.Exception;
 
+import com.anxpp.demo.code.StatusCode;
 import lombok.Data;
 
 @Data

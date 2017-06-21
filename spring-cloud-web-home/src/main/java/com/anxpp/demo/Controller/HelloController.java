@@ -1,5 +1,6 @@
 package com.anxpp.demo.Controller;
 
+import com.anxpp.demo.Exception.BusinessException;
 import com.anxpp.demo.FeignClient.HelloClient;
 import com.anxpp.demo.dto.SimpleResponse;
 import org.springframework.stereotype.Controller;
@@ -22,14 +23,16 @@ public class HelloController {
 
     @RequestMapping
     @ResponseBody
-    public SimpleResponse hello() {
-        return helloClient.hello();
+    public SimpleResponse hello() throws Exception {
+        throw new Exception("hello");
+//        return helloClient.hello();
     }
 
     @RequestMapping("/{name}")
     @ResponseBody
     public SimpleResponse helloName(@PathVariable String name) {
-        return helloClient.helloName(name);
+        throw new BusinessException(-1, "helloName");
+//        return helloClient.helloName(name);
     }
 
 }
