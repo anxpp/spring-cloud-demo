@@ -16,3 +16,4 @@
 - docker-maven-plugin Docker 打包插件
 - Spring Boot Actuator 系统的自省和监控工具
 - Feign 调用（基于 spring-cloud-starter-parent 自动实现负载均衡）
+- Lombok 工具
